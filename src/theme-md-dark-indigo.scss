@@ -1,0 +1,26 @@
+@import '../node_modules/primeng/resources/themes/md-dark-indigo/theme.css';
+
+$dark-color: #1e1e1e;
+$dark-font-color: #495057;
+
+body {
+    background-color: $dark-color;
+    color:$dark-font-color !important;
+}
+
+p-table {
+    tr, th {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: $dark-color !important;
+        border-radius: 4px;
+        color:$dark-font-color !important;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1); 
+    }
+}
+.p-button, .p-element, .p-dropdown-trigger, .p-paginator-bottom {
+    background-color: $dark-color !important;
+    color:$dark-font-color !important;
+}
+
+
+
